@@ -1,5 +1,5 @@
 {
-  "name": "hov-fe",
+  "name": "@flowstation/web",
   "version": "0.1.0",
   "private": true,
   "scripts": {

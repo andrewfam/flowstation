@@ -26,7 +26,7 @@ Running **graphql-codegen** requires you to add **.env** file with `API_URL`'s v
 
 You must provide **NEXT_PUBLIC_API_URL** environment variable that points to remote graphql server to run the application properly.
 
-## We use this tools
+## We use these tools
 
 - [ESLint](https://eslint.org/docs/user-guide/configuring/)
 - [Husky](https://typicode.github.io/husky/#/)

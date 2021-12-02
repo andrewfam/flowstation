@@ -10,8 +10,7 @@
     "type": "git",
     "url": "git+https://github.com/HighOutputVentures/flowstation.git"
   },
-  "author": "vmc08",
-  "license": "ISC",
+  "author": "FlowStation",
   "bugs": {
     "url": "https://github.com/HighOutputVentures/flowstation/issues"
   },
