@@ -14,8 +14,7 @@
     "generate": "graphql-codegen -r dotenv/config"
   },
   "husky": {
-    "hooks": {
-    }
+    "hooks": {}
   },
   "lint-staged": {
     "{**/*,*}.{json,css,md}": [
@@ -31,6 +30,8 @@
     "@chakra-ui/react": "^1.6.9",
     "@emotion/react": "^11.4.1",
     "@emotion/styled": "^11.3.0",
+    "@gnosis.pm/safe-core-sdk": "^1.1.1",
+    "@gnosis.pm/safe-deployments": "^1.5.0",
     "@heroicons/react": "^1.0.4",
     "@hookform/resolvers": "^2.8.3",
     "axios": "^0.22.0",

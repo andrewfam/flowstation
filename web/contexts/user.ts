@@ -1,12 +1,12 @@
 import { createContext } from "react"
 
 export type UserContext = {
-  wallet: object,
+  wallet: string,
   notify: object,
-  setWallet:(c: object) => void,
+  setWallet:(c: string) => void,
   setNotify:(c: object) => void
 }
 
-const AuthUserContext = createContext<UserContext>({wallet: {}, notify: {}, setWallet: () => {}, setNotify: () => {}});
+const AuthUserContext = createContext<UserContext>({wallet: '', notify: {}, setWallet: () => '', setNotify: () => {}});
 
 export default AuthUserContext;
